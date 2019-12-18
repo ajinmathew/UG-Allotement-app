@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".DepartmentVerify"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="10dp">
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:text="Home Card"
+        android:id="@+id/cardhome" />
+    <Button
+        android:layout_width="135dp"
+        android:layout_height="70dp"
+        android:text="verify Student"
+        android:id="@+id/verifystudent"/>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_margin="2dp"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0dp"
+            android:text="Reg no:"
+            android:textAppearance="?android:textAppearanceMedium" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="3">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/veregno"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0dp"
+            android:text="verify:"
+            android:textAppearance="?android:textAppearanceMedium" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="3">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/deverify"/>
+    </RelativeLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_margin="2dp"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="2">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="eMail:"
+            android:textAppearance="?android:textAppearanceMedium"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="3">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/deemail"/>
+    </RelativeLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_margin="2dp"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="2">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="name:"
+            android:textAppearance="?android:textAppearanceMedium"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="3">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/dename"/>
+    </RelativeLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_margin="2dp"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0dp"
+            android:text="age:"
+            android:textAppearance="?android:textAppearanceMedium" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="3">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/deage"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0dp"
+            android:text="gender:"
+            android:textAppearance="?android:textAppearanceMedium" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="3">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/degender"/>
+    </RelativeLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_margin="2dp"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="2">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="department:"
+            android:textAppearance="?android:textAppearanceMedium"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="3">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/dedepartment"/>
+    </RelativeLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_margin="2dp"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="3">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Total mark:"
+            android:textAppearance="?android:textAppearanceMedium"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="2">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/detotalmark"/>
+    </RelativeLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_margin="2dp"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="3">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Obtained Mark:"
+            android:textAppearance="?android:textAppearanceMedium"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="2">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/deobtmark"/>
+    </RelativeLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_margin="2dp"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="3">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Stream:"
+            android:textAppearance="?android:textAppearanceMedium"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="2">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/destream"/>
+    </RelativeLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_margin="2dp"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="3.3">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Disaster Manag.:"
+            android:textAppearance="?android:textAppearanceMedium"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1.7">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/dedisaster"/>
+    </RelativeLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_margin="2dp"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="3.3">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Web Technology:"
+            android:textAppearance="?android:textAppearanceMedium"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1.7">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/deweb"/>
+    </RelativeLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_margin="2dp"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="3.3">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Accounting:"
+            android:textAppearance="?android:textAppearanceMedium"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1.7">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/deaccount"/>
+    </RelativeLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_margin="2dp"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="3.3">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Maths:"
+            android:textAppearance="?android:textAppearanceMedium"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1.7">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/demaths"/>
+    </RelativeLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_margin="2dp"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="3.3">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Open Course:"
+            android:textAppearance="?android:textAppearanceMedium"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1.7">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/deopencourse"/>
+    </RelativeLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_margin="2dp"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="3.3">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="password:"
+            android:textAppearance="?android:textAppearanceMedium"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1.7">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/depassword"/>
+    </RelativeLayout>
+</LinearLayout>
+</LinearLayout>
+
+
+

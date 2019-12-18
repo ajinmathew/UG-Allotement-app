@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".s_home"
+    android:padding="35dp"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/pink">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Hi "
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#6A3142"
+            android:textSize="36sp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/namenew1"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#6A3142"
+        android:textSize="18sp"
+        android:id="@+id/regnew1" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6A3142"
+            android:textSize="13sp"
+            android:text=" Your Calculated IndexMark is   "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6A3142"
+            android:textSize="13sp"
+            android:id="@+id/indexnew1" />
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Profile"
+        android:background="@drawable/head"
+        android:id="@+id/updateprofile"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textColor="#9C20B2"
+        android:textSize="18sp"
+        android:id="@+id/disnew1" />
+</LinearLayout>

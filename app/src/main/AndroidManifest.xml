@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mgc.allotmentug">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/shjilogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/shjilogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UploadData"></activity>
+        <activity android:name=".DepartmentVerify" />
+        <activity android:name=".HomeDepartmentCard" />
+        <activity android:name=".s_home" />
+        <activity android:name=".DepartmentDecision" />
+        <activity android:name=".DepartmentLogin" />
+        <activity android:name=".loginadmin" />
+        <activity android:name=".AdminHome" />
+        <activity android:name=".OptStudent" />
+        <activity android:name=".StudentLoginPage" />
+        <activity android:name=".HomeStudent" />
+        <activity android:name=".loginstudent" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
